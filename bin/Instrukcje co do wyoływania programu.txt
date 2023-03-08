@@ -1,0 +1,14 @@
+Wywołania prgramu 
+
+(test dzielenia grafu i bfsu) (funkcja dzielenia na 2 części może kiepsko działać dla większych grafów, na więcej części wydaje się działać dobrze ( graf wychodzi nie spójny))
+./progr -s0 -p 300 -m 0 -v 3 -r 13 -c 13 -n 2
+
+(test całości oprócz dzielenia grafu)
+./progr -s0 -p 9999 -m 0 -v 3 -r 100 -c 100 -o ababababab.txt
+
+(test wczytania z pliku bfsa i dijkstry)
+
+./progr -s0 -p 16 -i mygraph
+
+(help)
+./progr -s0 -p 16 -i mygraph
